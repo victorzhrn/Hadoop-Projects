@@ -1,0 +1,95 @@
+Sriram,Mohan,1,2.5
+Sriram,Mohan,2,3.75
+Sriram,Mohan,1,5.25
+Dharmin,Shah,1, 2
+Dharmin,Shah,2, 5.65
+Dharmin,Shah,2,3.2
+Darryl,Mouck,1, 0.5
+Cary,Laxer,1,5
+Cary,Laxer,1,7.5
+Chandan,Rupakheti,1,3.35
+Chandan,Rupakheti,2,1.65
+Cary,Laxer,2,2.5
+Cary,Laxer,2,3.6
+Chandan,Rupakheti,2,2.65
+Darryl,Mouck,2,5.6
+Buffalo,Hewner,1,12
+Buffalo,Hewner,2,12.5
+Micah,Taylor,1,1.6
+Micah,Taylor,2,11.0
+Sriram,Mohan,1,2.5
+Sriram,Mohan,2,3.75
+Sriram,Mohan,1,5.25
+Dharmin,Shah,1, 2
+Dharmin,Shah,2, 5.65
+Dharmin,Shah,2,3.2
+Darryl,Mouck,1, 0.5
+Cary,Laxer,1,5
+Cary,Laxer,1,7.5
+Chandan,Rupakheti,1,3.35
+Chandan,Rupakheti,2,1.65
+Cary,Laxer,2,2.5
+Cary,Laxer,2,3.6
+Chandan,Rupakheti,2,2.65
+Darryl,Mouck,2,5.6
+Buffalo,Hewner,1,12
+Buffalo,Hewner,2,12.5
+Micah,Taylor,1,1.6
+Micah,Taylor,2,11.0
+Sriram,Mohan,1,2.5
+Sriram,Mohan,2,3.75
+Sriram,Mohan,1,5.25
+Dharmin,Shah,1, 2
+Dharmin,Shah,2, 5.65
+Dharmin,Shah,2,3.2
+Darryl,Mouck,1, 0.5
+Cary,Laxer,1,5
+Cary,Laxer,1,7.5
+Chandan,Rupakheti,1,3.35
+Chandan,Rupakheti,2,1.65
+Cary,Laxer,2,2.5
+Cary,Laxer,2,3.6
+Chandan,Rupakheti,2,2.65
+Darryl,Mouck,2,5.6
+Buffalo,Hewner,1,12
+Buffalo,Hewner,2,12.5
+Micah,Taylor,1,1.6
+Micah,Taylor,2,11.0
+Sriram,Mohan,1,2.5
+Sriram,Mohan,2,3.75
+Sriram,Mohan,1,5.25
+Dharmin,Shah,1, 2
+Dharmin,Shah,2, 5.65
+Dharmin,Shah,2,3.2
+Darryl,Mouck,1, 0.5
+Cary,Laxer,1,5
+Cary,Laxer,1,7.5
+Chandan,Rupakheti,1,3.35
+Chandan,Rupakheti,2,1.65
+Cary,Laxer,2,2.5
+Cary,Laxer,2,3.6
+Chandan,Rupakheti,2,2.65
+Darryl,Mouck,2,5.6
+Buffalo,Hewner,1,12
+Buffalo,Hewner,2,12.5
+Micah,Taylor,1,1.6
+Micah,Taylor,2,11.0
+Sriram,Mohan,1,2.5
+Sriram,Mohan,2,3.75
+Sriram,Mohan,1,5.25
+Dharmin,Shah,1, 2
+Dharmin,Shah,2, 5.65
+Dharmin,Shah,2,3.2
+Darryl,Mouck,1, 0.5
+Cary,Laxer,1,5
+Cary,Laxer,1,7.5
+Chandan,Rupakheti,1,3.35
+Chandan,Rupakheti,2,1.65
+Cary,Laxer,2,2.5
+Cary,Laxer,2,3.6
+Chandan,Rupakheti,2,2.65
+Darryl,Mouck,2,5.6
+Buffalo,Hewner,1,12
+Buffalo,Hewner,2,12.5
+Micah,Taylor,1,1.6
+Micah,Taylor,2,11.0
