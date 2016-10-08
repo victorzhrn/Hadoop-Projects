@@ -57,6 +57,7 @@ public class IntPair implements WritableComparable<IntPair> {
 	}
 
 	public static class FirstComparator extends WritableComparator {
+		
 		private static final IntWritable.Comparator myComparator = new IntWritable.Comparator();
 
 		public FirstComparator() {
