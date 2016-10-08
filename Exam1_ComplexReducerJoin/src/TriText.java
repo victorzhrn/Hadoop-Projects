@@ -43,6 +43,7 @@ public class TriText implements WritableComparable<TriText> {
 	@Override
 	public int compareTo(TriText o) {
 		// TODO Auto-generated method stub
+		//System.out.println("normal comparator run");
 		int comp = id.compareTo(o.id);
 		if (comp != 0)
 			return comp;
@@ -59,8 +60,7 @@ public class TriText implements WritableComparable<TriText> {
 
 		public FirstComparator() {
 			super(TriText.class);
-			System.out.println("initialize");
-
+			//System.out.println("initialize");
 		}
 
 		@Override
@@ -71,7 +71,6 @@ public class TriText implements WritableComparable<TriText> {
 				int firstL2 = WritableUtils.decodeVIntSize(b2[s2]) + readVInt(b2, s2);
 				//System.out.println("in raw comparator:  "+ new String(Arrays.copyOfRange(b1, s1, s1+firstL1)));
 				return myComparator.compare(b1, s1, firstL1, b2, s2, firstL2);
-
 			} catch (IOException e) {
 				throw new IllegalArgumentException(e);
 			}

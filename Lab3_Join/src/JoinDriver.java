@@ -46,6 +46,7 @@ public class JoinDriver {
 		}
 	}
 	
+	
 	public static class IDPartitioner extends Partitioner<IntPair,Text>{
 		@Override
 		public int getPartition(IntPair key, Text value, int numPartitions) {
