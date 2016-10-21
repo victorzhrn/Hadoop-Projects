@@ -1,0 +1,1 @@
+ pig -param input=hdfs:///user/maria_dev/testFile.txt -param Output=hdfs:///user/maria_dev/wordcount_output task2.pig 

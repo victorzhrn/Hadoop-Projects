@@ -1,0 +1,1 @@
+pig -param input=hdfs:///user/maria_dev/tempInput.txt -param MinOutput=hdfs:///user/maria_dev/MinOutput -param MaxOutput=hdfs:///user/maria_dev/MaxOutput -param AvgOutput=hdfs:///user/maria_dev/AvgOutput task3.pig 

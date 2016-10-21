@@ -1,1 +1,1 @@
-pig -param input=/hdfs:///user/maria_dev/sample/gz -param blogname = xxx -param output = hdfs:///user/maria_dev/task4_logAnalysis hdfs:///user/maria_dev/task4_2.0_input.pig
+ pig -param input=hdfs:///user/maria_dev/sample.gz -param output=hdfs:///user/maria_dev/log_analysis_output task4.pig 

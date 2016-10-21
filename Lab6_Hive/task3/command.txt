@@ -1,0 +1,1 @@
+hadoop fs ­cp /apps/hive/warehouse/rosedynamicemployees/* /apps/hive/warehouse/rosedynamicemployeesmanualadd/

@@ -1,0 +1,1 @@
+hive -hiveconf dbName=lab6_zhangr4 -f createDB_param.hql 
