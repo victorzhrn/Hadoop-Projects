@@ -1,3 +1,0 @@
-John Smith,jsmith,75234
-Jane Doe, jdoe, 95999
-Otis Gibson,ogibson,95999.5

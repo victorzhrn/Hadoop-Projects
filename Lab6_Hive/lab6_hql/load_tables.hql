@@ -1,4 +1,4 @@
-use lab6_zhangr4;
+use lab6_hive;
 show tables;
 
 drop table if exists RoseEmployees;
@@ -11,8 +11,8 @@ stored as TEXTFILE;
 load data inpath 'hdfs:///user/hive/Lab6_Input/allEmployees.txt' 
 overwrite into table RoseEmployees;
 
-drop table if exists RoseStaticEmployee;
-CREATE TABLE RoseStaticEmployee
+drop table if exists RoseStaticEmployees;
+CREATE TABLE RoseStaticEmployees
 (first string, last string, specialty string, num int)
 PARTITIONED BY (dept string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
@@ -25,7 +25,7 @@ overwrite into table RoseStaticEmployees PARTITION (dept = 'csse');
 load data inpath 'hdfs:///user/hive/Lab6_Input/eceEmployees.txt' 
 overwrite into table RoseStaticEmployees PARTITION (dept = 'ece');
 
-drop table if exists RoseDynamicEmployees;
+
 CREATE TABLE RoseDynamicEmployees
 (first string, last string, specialty string, num int)
 PARTITIONED BY(dept string)
@@ -37,7 +37,6 @@ INSERT INTO TABLE RoseDynamicEmployees partition(dept)
 SELECT first,last,specialty,num,dept FROM RoseStaticEmployees;
 SET hive.exec.dynamic.partition.mode=strict;
 
-drop table if exists RoseDynamicEmployeesORC;
 CREATE TABLE RoseDynamicEmployeesORC
 (first string, last string, specialty string, num int)
 PARTITIONED BY(dept string)

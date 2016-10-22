@@ -8,7 +8,7 @@ CREATE TABLE temperature_table(
 row format delimited fields terminated by '\t'
 STORED AS TEXTFILE;
 
-load data inpath ${hiveconf:input} into table temperature_table;
+load data inpath '${hiveconf:input}' into table temperature_table;
 
 select year, MAX(temp)as max_of_year
 from temperature_table
